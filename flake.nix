@@ -19,6 +19,7 @@
 	  ./home.nix
 	  ./aliases.nix
 	  ./programs.nix
+	  ./shell.nix
 	];
       };
     };

@@ -67,8 +67,4 @@
       signByDefault = true;
     };
   };
-  programs.bash = {
-    enable = true;
-  };
-
 }
