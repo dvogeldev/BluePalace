@@ -22,7 +22,7 @@
 	  ./aliases.nix
 	  ./programs.nix
 	  ./shell.nix
-	  ./wezterm.nix
+	  ./kitty.nix
 	];
       };
     };
