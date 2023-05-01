@@ -1,10 +1,12 @@
-{ config, pkgs, ... }:
+{ config, pkgs, nix-colors, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "david";
   home.homeDirectory = "/home/david";
+
+  imports = [ nix-colors.homeManagerModules.default ];
 
   nixpkgs = {
     config = {
@@ -20,6 +22,8 @@
       cantarell-fonts
       neovim
       ripgrep
+      skim
+      bottom
       # # You can also create simple shell scripts directly inside your
       # # configuration. For example, this adds a command 'my-hello' to your
       # # environment:
@@ -68,4 +72,5 @@
       signByDefault = true;
     };
   };
+  
 }

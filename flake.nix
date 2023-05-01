@@ -22,7 +22,6 @@
 	  ./aliases.nix
 	  ./programs.nix
 	  ./shell.nix
-	  ./kitty.nix
 	];
       };
     };
