@@ -20,7 +20,6 @@
     packages = with pkgs; [
       (pkgs.nerdfonts.override { fonts = [ "Hasklig" ]; })
       cantarell-fonts
-      caja
       easyeffects
       neovim
       ripgrep

@@ -13,5 +13,9 @@
     cls = "clear && exa -lh";
     cla = "clear && exa -lah";
 
+    # git
+    lg = "lazygit";
+
+
     };
 }
