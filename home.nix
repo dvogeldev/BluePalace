@@ -6,6 +6,11 @@
   home.username = "david";
   home.homeDirectory = "/home/david";
 
+  nixpkgs = {
+    allowUnfree = true;
+    allowUnFreePrediacate = (_: true);
+  };
+
   home = {
     stateVersion = "22.11"; # Please read the comment before changing.
     packages = with pkgs; [
