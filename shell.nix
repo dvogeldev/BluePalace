@@ -17,3 +17,5 @@
       "--group-directories-first"
       "--header"
     ];
+  };
+}
