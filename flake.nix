@@ -8,7 +8,7 @@
     nix-colors.url = "github:misterio77/nix-colors";
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }: {
+  outputs = { self, nixpkgs, home-manager, nix-colors, ... }: {
 
     defaultPackage.x86_64-linux = home-manager.defaultPackage.x86_64-linux;
 
@@ -22,6 +22,7 @@
 	  ./aliases.nix
 	  ./programs.nix
 	  ./shell.nix
+	  ./wezterm.nix
 	];
       };
     };
