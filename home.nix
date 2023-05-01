@@ -7,8 +7,10 @@
   home.homeDirectory = "/home/david";
 
   nixpkgs = {
-    allowUnfree = true;
-    allowUnfreePrediacate = (_: true);
+    config = {
+      allowUnfree = true;
+      allowUnfreePrediacate = (_: true);
+    };
   };
 
   home = {
