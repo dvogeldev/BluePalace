@@ -8,6 +8,7 @@
     programs.starship.enable = true;
     programs.dircolors.enable = true;
     programs.lazygit.enable = true;
+    programs.fish.enable = true;
     programs.git = {
       enable = true;
       userEmail = "btwiusemacs@fastmail.us";
