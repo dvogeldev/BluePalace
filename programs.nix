@@ -17,8 +17,4 @@
         signByDefault = true;
       };
     };
-    services.easyeffects = {
-      enable = true;
-      preset = '' '';
-    };
 }
