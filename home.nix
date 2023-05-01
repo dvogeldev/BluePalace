@@ -8,7 +8,7 @@
 
   nixpkgs = {
     allowUnfree = true;
-    allowUnFreePrediacate = (_: true);
+    allowUnfreePrediacate = (_: true);
   };
 
   home = {
