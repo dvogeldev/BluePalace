@@ -19,6 +19,9 @@
       (pkgs.nerdfonts.override { fonts = [ "Hasklig" ]; })
       cantarell-fonts
       bibata-cursors
+      qogir-icon-theme
+      papirus-icon-theme
+      kora-icon-theme
       easyeffects
       emacs
       fd
