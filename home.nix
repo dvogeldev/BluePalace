@@ -21,6 +21,10 @@
       (pkgs.nerdfonts.override { fonts = [ "Hasklig" ]; })
       cantarell-fonts
       easyeffects
+      emacs
+      fd
+      emacsPackages.vterm
+      emacsPackages.sqlite3
       neovim
       ripgrep
       skim
