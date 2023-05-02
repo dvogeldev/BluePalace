@@ -65,6 +65,14 @@
     };
 };
 
+  services.emacs.enable = true;
+
+  stylix.image = "/home/david/Pictures/wallpapersden.com_mountain-minimalist-night_3840x2160.jpg";
+  stylix.polarity = "dark";
+  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/tokyo-night-dark.yaml";
+
+
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
   
