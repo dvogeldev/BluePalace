@@ -10,7 +10,7 @@
 
   outputs = { self, nixpkgs, home-manager, stylix, ... }: {
 
-    #defaultPackage.x86_64-linux = home-manager.defaultPackage.x86_64-linux;
+    defaultPackage.x86_64-linux = home-manager.defaultPackage.x86_64-linux;
 
     homeConfigurations = {
       "david" = home-manager.lib.homeManagerConfiguration {
@@ -21,7 +21,7 @@
 	        ./aliases.nix
 	        ./programs.nix
 	        ./shell.nix
-	        #stylix.homeManagerModules.stylix
+		stylix.homeManagerModules.stylix
 	      ];
       };
     };

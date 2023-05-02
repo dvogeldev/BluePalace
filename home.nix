@@ -1,12 +1,10 @@
-{ config, pkgs, nix-colors, ... }:
+{ config, pkgs, home-manager, stylix, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "david";
   home.homeDirectory = "/home/david";
-
-  imports = [ nix-colors.homeManagerModules.default ];
 
   nixpkgs = {
     config = {
@@ -20,6 +18,7 @@
     packages = with pkgs; [
       (pkgs.nerdfonts.override { fonts = [ "Hasklig" ]; })
       cantarell-fonts
+      bibata-cursors
       easyeffects
       emacs
       fd
