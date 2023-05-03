@@ -21,6 +21,7 @@
 	        ./aliases.nix
 	        ./programs.nix
 	        ./shell.nix
+		./gnome-shortcuts.nix
 		stylix.homeManagerModules.stylix
 	      ];
       };
