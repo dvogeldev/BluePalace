@@ -28,7 +28,7 @@
       emacsPackages.vterm
       emacsPackages.sqlite3
       neovim
-      sqlite3
+      sqlite
       ripgrep
       skim
       bottom
